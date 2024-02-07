@@ -37,4 +37,5 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
-Acknowledgment: Ingo Joseph for providing exiting panoramic photo of Berlin in Pexels!
+- Acknowledgment: Ingo Joseph for providing exiting panoramic photo of Berlin in Pexels
+- Foto of the National Library of Finlad (Bahnfrend, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons)
