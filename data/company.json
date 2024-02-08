@@ -1,7 +1,12 @@
 [
     {
-        name": "Thorin Oakenshild",
+        "name": "Thorin Oakenshild",
         "description": "Prvo Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maxime esse odio commodi repudiandae voluptatum sit ducimus? Incidunt numquam laborum natus nihil voluptatibus neque cupiditate, dicta commodi tempora ipsum rerum consectetur corrupti! Eos itaque dolorum, quia quam hic nobis perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maxime esse odio commodi repudiandae voluptatum sit ducimus? Incidunt numquam laborum natus nihil voluptatibus neque cupiditate, dicta commodi tempora ipsum rerum consectetur corrupti! Eos itaque dolorum, quia quam hic nobis perspiciatis.",
         "image_source": "https://static.wikia.nocookie.net/lotr/images/3/3f/ThorinBIG.jpg"
+},
+{
+    "name": "Fili and Kili",
+    "description": "drugo Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maxime esse odio commodi repudiandae voluptatum sit ducimus? Incidunt numquam laborum natus nihil voluptatibus neque cupiditate, dicta commodi tempora ipsum rerum consectetur corrupti! Eos itaque dolorum, quia quam hic nobis perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maxime esse odio commodi repudiandae voluptatum sit ducimus? Incidunt numquam laborum natus nihil voluptatibus neque cupiditate, dicta commodi tempora ipsum rerum consectetur corrupti! Eos itaque dolorum, quia quam hic nobis perspiciatis.",
+    "image_source": "https://static.wikia.nocookie.net/lotr/images/3/3f/ThorinBIG.jpg"
 }
 ]
