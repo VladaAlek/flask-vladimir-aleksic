@@ -1,41 +1,28 @@
 {% extends "base.html" %}
 {% block content %}
 
-    {{ company[1] ["description"] }}
-
     <h2>{{ page_title }}</h2>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maxime esse odio commodi repudiandae voluptatum
         sit ducimus? Incidunt numquam laborum natus nihil voluptatibus neque cupiditate, dicta commodi tempora ipsum rerum
         consectetur corrupti! Eos itaque dolorum, quia quam hic nobis perspiciatis!
     </p>
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h3>Education</h3>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id earum cum at recusandae maiores odit expedita modi,
-                error commodi nam dolorem facere odio laborum! Obcaecati harum praesentium, molestias sapiente adipisci autem
-                veritatis, a minima placeat quas excepturi necessitatibus eveniet? Impedit.
-            </p>
+
+    {% for member in company %}
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h3>{{ member.name }}</h3>
+                <p>
+                    {{ member.description }}
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
+            </div>
         </div>
-        <div class="col-md-5">
-            <img src="https://static.wikia.nocookie.net/lotr/images/3/3f/ThorinBIG.jpg" alt="">
-        </div>
-    </div>
-    <div class="row featurette">
-        <div class="col-md-5">
-            <img src="https://static.wikia.nocookie.net/lotr/images/3/3f/ThorinBIG.jpg" alt="">
-        </div>
-        <div class="col-md-7">
-            <h3>Careere</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis animi praesentium ullam modi voluptates beatae quas
-                mollitia labore facilis nam consequatur, dolor eligendi harum ipsa. Eaque quasi perspiciatis atque quisquam hic amet
-                odit facilis in fugiat quam? Dolore quae tenetur minima, ea delectus quam, quos eveniet sequi deleniti, consequatur
-                nam vel fuga expedita quo maxime soluta. Alias quas nihil error.
-            </p>
-        </div>
-    </div>
+        <hr class="featurette-divider">
+    {% endfor %}
 
 {% endblock %}
 
